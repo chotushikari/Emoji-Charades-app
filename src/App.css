@@ -1,0 +1,50 @@
+body {
+  background: #f9fafb;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.game-container {
+  background: #fff;
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+select, input {
+  width: 80%;
+  padding: 12px;
+  margin: 15px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 12px 24px;
+  background-color: #4f46e5;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4338ca;
+}
+
+.emoji-section {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
